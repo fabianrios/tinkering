@@ -221,7 +221,7 @@ module.exports = function (grunt) {
           }
       },
       sass: {
-        src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+        src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}', 'bower_components/foundation/scss/*.scss'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
       }
     }, 
